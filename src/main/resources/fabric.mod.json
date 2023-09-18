@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "cookingwportals",
+    "version": "${version}",
+    "name": "Cooking-With-Portals",
+    "description": "",
+    "authors": [
+        "ThePoultryMan"
+    ],
+    "contact": {
+        "repo": "https://github.com/ThePoultryMan/Cooking-With-Portals"
+    },
+    "license": "MIT",
+    "icon": "",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.thepoultryman.cookingwportals.CookingWithPortals"
+        ]
+    },
+    "mixins": [
+        "cookingwportals.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
